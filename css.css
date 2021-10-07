@@ -1,0 +1,67 @@
+/* test */
+
+:root {
+    --enVariabel: #ff0066;
+    --enAnnan: rgb(82, 121, 226);
+    --enLagaomWidth: 330px;
+}
+
+* {
+    background-color: var(--enAnnan);
+    font-size: 100px;
+    margin: 100;
+    padding: 0;
+}
+
+
+.ett {
+    color: var(--enVariabel);
+    font-size: 2rem;
+}
+
+#hh {
+    text-align: right;
+    font-size: .5em;
+}
+
+article article {
+    background-color: olive;
+    font-size: .5rem;
+    box-sizing: border-box;
+    border: 15px blanchedalmond solid;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+article #ettID {
+    background-color: olive;
+    font-size: .5rem;
+    box-sizing: content-box;
+    border: 15px blanchedalmond solid;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+
+header img {
+    width: var(--enLagaomWidth);
+    padding-left: 220px;
+    border: dotted 20px #5B6DCD;
+    border-radius: 300px;
+}
+
+
+header img:hover{
+    width: var(--enLagaomWidth);
+    padding-left: 220px;
+    border: dotted 20px rgb(80, 25, 77);
+    border-radius: 6000px;
+}
+
+
+html{
+    box-sizing: content-box;
+    border: solid 20px;
+}
